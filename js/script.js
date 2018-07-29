@@ -14,17 +14,11 @@ function showCountriesList(resp) {
 	countriesList.innerHTML = '';
 	resp.forEach(function (item) {
 		var liEl = document.createElement('li');
-		var capital = document.createElement('li');
-		var region = document.createElement('li');
-		var population = document.createElement('li');
 		liEl.innerText = item.name;
-		liEl.innerText = ' Country: ' + item.name;
-		capital.innerText = 'Capital city: ' + item.capital;
-		region.innerText = 'Region: ' + item.region;
-		population.innerText = 'The population: ' + item.population;
+		liEl.innerText = `Country: ${item.name}
+						  Capital city: ${item.capital}
+						  Region: ${item.region}
+						  The population: ${item.population}`;
 		countriesList.appendChild(liEl);
-		countriesList.appendChild(capital);
-		countriesList.appendChild(region);
-		countriesList.appendChild(population);
 	});
 }
