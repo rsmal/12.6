@@ -3,7 +3,6 @@
 }
 body {
 	margin: 0 autp;
-	background-image: url('https://tinyurl.com/ydeg23el');
 	text-align: center;
 	color: #fff;
 }
@@ -24,4 +23,14 @@ li {
 	width: 150px;
 	color: #fff;
 	font-size: 15px;
+}
+
+.content {
+	position: fixed;
+	 width: 100%;
+	  height: 100%;
+	   background-image: url(https://tinyurl.com/ydeg23el);
+	    top: 0;
+	     left:
+	      0; z-index: -1; 
 }
