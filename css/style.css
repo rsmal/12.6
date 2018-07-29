@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 autp;
+  background-image: url("https://tinyurl.com/ydeg23el");
+  text-align: center;
+  color: #fff;
+}
+
+li {
+  color: yellow;
+  list-style-type: none;
+  font-size: 25px;
+}
+
+#countries {
+  background: rgba(0, 0, 0, 0.5);
+  border: 3px solid black;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#search {
+  background: rgba(0, 0, 0, 0);
+  height: 40px;
+  width: 150px;
+  color: #fff;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
